@@ -13,3 +13,5 @@ You will need
 
 Also information will be posted in the forum
 https://forum.image-line.com/viewtopic.php?p=1867789#p1867789
+
+Code is provided under MIT license, so any reuse is allowed.
