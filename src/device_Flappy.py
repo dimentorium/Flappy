@@ -36,3 +36,5 @@ def OnSysEx(fl_event):
     else:   #important to ignore loopback otherwise this can cause an infinite loop                                                 
         pass
         #print("loopback")
+
+    fl_event.handled = True

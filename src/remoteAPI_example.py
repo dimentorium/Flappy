@@ -10,7 +10,7 @@ import plugins
 import ui
 import midi
 
-flappy.enable()
+flappy.enable("PythonMidi 0", "PythonMidi 1")
 
 transport.start()
 time.sleep(1)
@@ -28,9 +28,9 @@ mixer.soloTrack(5)
 # transport.globalTransport(midi.FPT_Enter)
 
 
-""" print(plugins.getPluginName(4))
-paramcount = plugins.getParamCount(4)
+print(plugins.getPluginName(3))
+paramcount = plugins.getParamCount(3)
 for i in range(0, paramcount):
-    #print(plugins.getParamName(i, 4), ":", plugins.getParamValue(i, 4))
-    plugins.setParamValue(random.random(), i, 4)
-    time.sleep(0.01) """
+    print(plugins.getParamName(i, 3), ":", plugins.getParamValue(i, 3))
+    plugins.setParamValue(random.random(), i, 3)
+    time.sleep(0.01)
