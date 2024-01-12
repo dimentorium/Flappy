@@ -1,4 +1,10 @@
 # Flappy
+
+===============================================
+Better use the more stable and well developed version from Michael
+https://github.com/MiguelGuthridge/Flapi
+===============================================
+
 First version of an FLStudio Device, that can be used to directly automate FLStudio from a Python IDE (for example VSCode)
 Basic idea is quite simple. The device is connected via a virtual midi cable (I used loopmidi https://www.tobias-erichsen.de/software/loopmidi.html) and receives commands from Python via Sysex. Thus you can execute any command that is available either for automating boring tasks, or prototyping functions without a controller.
 
